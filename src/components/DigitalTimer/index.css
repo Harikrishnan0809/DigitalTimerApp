@@ -1,0 +1,148 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #defafe, #cffcf1);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.digital-heading {
+  font-size: 40px;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.time-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.round-container {
+  background-color: #ffffff;
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.min-sec {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #00d9f5;
+  margin-bottom: 0px;
+}
+
+.run-pause {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #0f172a;
+  margin-top: 0px;
+}
+
+.ove-all-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .ove-all-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.button-container {
+  display: flex;
+}
+
+.play-pause-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.play-pause-image {
+  height: 20px;
+  width: 20px;
+}
+
+.play-pause-container {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.play-pause-text {
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+
+.play-pause-set-over-all-container {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 0px;
+}
+
+.set-timer-limit-para {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  color: #0f172a;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.add-less-symbol {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #0f172a;
+  text-align: center;
+  margin-bottom: 0px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.limit-add-less-container {
+  display: flex;
+  align-items: center;
+}
+
+.limit-num-container {
+  background-color: #00d9f5;
+  width: 55px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #0f172a;
+  border-radius: 5px;
+}
